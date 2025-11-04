@@ -9,6 +9,12 @@
 # print(result)
 
 # Ternary Operator using Tuple
-user = int(input("Enter number: "))
-result = ("Odd","Even")[user % 2 == 0]
-print(result)
+# user = int(input("Enter number: "))
+# result = ("Odd","Even")[user % 2 == 0]
+# print(result)
+
+# Ternary Operator using Dictionary
+userIn1 =int(input("Enter Number 1: ")) 
+userIn2 =int(input("Enter Number 2: "))
+max = {True: userIn1, False: userIn2}[userIn1 > userIn2]
+print(max)
