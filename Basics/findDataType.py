@@ -5,6 +5,7 @@ d = ("hello","world")
 e = ["hello","world"]
 f = {"hello":1,"world":2}
 
+
 print(type(a))
 print(type(b))
 print(type(c))
