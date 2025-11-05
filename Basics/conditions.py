@@ -32,8 +32,18 @@
 # else:
 #     print("Child")
 
-age = int(input("Enter age: "))
-result = "Adult" if age >= 18 else "child"
-print(result)
+# age = int(input("Enter age: "))
+# result = "Adult" if age >= 18 else "child"
+# print(result)
 
+# Match-Case Statement
+
+number = int(input("Enter number: "))
+match number:
+    case 1:
+        print("one")
+    case 2 | 3 | 5:
+        print("Two or Three or five")
+    case _:
+        print("other number")
   
