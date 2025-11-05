@@ -20,16 +20,20 @@
 
 # Nested if..else Conditional Statement
 
-age = int(input("Enter age: "))
+# age = int(input("Enter age: "))
 # age = 15
-is_eligible = True
+# is_eligible = True
 
-if age >= 20:
-    if is_eligible:
-        print("eligible for vote")
-    else:
-        print("not eligible")
-else:
-    print("Child")
+# if age >= 20:
+#     if is_eligible:
+#         print("eligible for vote")
+#     else:
+#         print("not eligible")
+# else:
+#     print("Child")
+
+age = int(input("Enter age: "))
+result = "Adult" if age >= 18 else "child"
+print(result)
 
   
