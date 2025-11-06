@@ -29,6 +29,12 @@
 #     print(i)
 
 # Iterating by Index of Sequences
-li = ["hello", "how", "are"]
-for i in range(len(li)):
-    print(li[i])
+# li = ["hello", "how", "are"]
+# for i in range(len(li)):
+#     print(li[i])
+
+# while loop
+count = 0
+while(count < 3):
+    count = count + 1
+    print("Hello world")
