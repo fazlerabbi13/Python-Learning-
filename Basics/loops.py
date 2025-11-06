@@ -14,6 +14,11 @@
 #     print(i)
 
 # iterating string
-str = "hello"
-for s in str:
-    print(s)
+# str = "hello"
+# for s in str:
+#     print(s)
+
+# iterating dictionary
+dictionary = dict({'id':47014, 'reg':241245789})
+for i in dictionary:
+    print("%s %d" % (i, dictionary[i]))
