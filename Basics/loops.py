@@ -48,3 +48,7 @@ for i in range(1, 5):
     print()
 
 # Continue Statement
+for l in "HelloWorld":
+    if l == 'e' or l == 'r':
+        continue
+    print('current letter: ', l)
