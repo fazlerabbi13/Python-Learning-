@@ -38,3 +38,13 @@ count = 0
 while(count < 3):
     count = count + 1
     print("Hello world")
+
+
+# Nested Loops
+
+for i in range(1, 5):
+    for j in range(i):
+        print(i,end=' ')
+    print()
+
+# Continue Statement
