@@ -24,6 +24,11 @@
 #     print("%s %d" % (i, dictionary[i]))
 
 # iteration in set
-set1 = {10, 20 ,30}
-for i in set1:
-    print(i)
+# set1 = {10, 20 ,30}
+# for i in set1:
+#     print(i)
+
+# Iterating by Index of Sequences
+li = ["hello", "how", "are"]
+for i in range(len(li)):
+    print(li[i])
