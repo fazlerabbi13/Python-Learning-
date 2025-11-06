@@ -9,6 +9,11 @@
 #     print(i)
 
 # tuple iterating
-tuple = ("hello","programming","world")
-for i in tuple:
-    print(i)
+# tuple = ("hello","programming","world")
+# for i in tuple:
+#     print(i)
+
+# iterating string
+str = "hello"
+for s in str:
+    print(s)
