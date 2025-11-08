@@ -16,7 +16,15 @@
 
 # Keyword Arguments
 
-def employee(first, second):
-    print(first, second)
+# def employee(first, second):
+#     print(first, second)
 
-employee(first="mohammad",second="ali")
+# employee(first="mohammad",second="ali")
+def nameAndAge(name, age):
+    print("hi, i am ",name)
+    print("my age is ", age)
+
+print("case - 1:")
+nameAndAge("Fazle Rabbi", 20)
+print("\ncase - 2:")
+nameAndAge(20,"Fazle Rabbi")
