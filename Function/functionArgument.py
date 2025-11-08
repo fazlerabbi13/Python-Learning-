@@ -9,7 +9,14 @@
 
 # default Argument
 
-def func(x,y=20):
-    print("x = ",x)
-    print("y = ",y)
-func(10)
+# def func(x,y=20):
+#     print("x = ",x)
+#     print("y = ",y)
+# func(10)
+
+# Keyword Arguments
+
+def employee(first, second):
+    print(first, second)
+
+employee(first="mohammad",second="ali")
