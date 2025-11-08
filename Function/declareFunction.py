@@ -1,3 +1,3 @@
-def fun():
+def printing():
     print("Hello World")
-fun()
+printing()
