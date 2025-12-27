@@ -16,7 +16,11 @@
 # print(res)
 
 # Here, the lambda is used as a filtering condition to keep only even numbers from the list.
-numbers = [2, 3, 4, 5, 6, 7, 8, 9]
-odd = filter(lambda x: x % 2 != 0, numbers)
-print(list(odd))
+# numbers = [2, 3, 4, 5, 6, 7, 8, 9]
+# odd = filter(lambda x: x % 2 != 0, numbers)
+# print(list(odd))
 
+# map function in lambda
+nums = [1, 2, 3, 4]
+mult = map(lambda x: x * 2, nums)
+print(list(mult))
