@@ -11,6 +11,12 @@
 # print(check(3))
 
 # The lambda calculates both sum and product of two numbers and returns them as a tuple.
-calculate = lambda x,y:(x + y,x * y)
-res = calculate(3, 4)
-print(res)
+# calculate = lambda x,y:(x + y,x * y)
+# res = calculate(3, 4)
+# print(res)
+
+# Here, the lambda is used as a filtering condition to keep only even numbers from the list.
+numbers = [2, 3, 4, 5, 6, 7, 8, 9]
+odd = filter(lambda x: x % 2 != 0, numbers)
+print(list(odd))
+
