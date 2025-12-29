@@ -8,3 +8,7 @@ def cube(val):
 
 result = list(map(cube, nums))
 print(result)
+
+# map() function with lambda
+result = list(map(lambda x: x ** 3, nums))
+print(result)
