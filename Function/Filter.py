@@ -9,3 +9,8 @@ print(list(f))
 
 l = filter(lambda x: x % 2 == 0, nums)
 print(list(l)) 
+
+# Filtering and Transforming Data
+filter1 = filter(lambda x: x % 2 == 0, nums)
+map1 = map(lambda x: x ** 3, filter1)
+print(list(map1))
