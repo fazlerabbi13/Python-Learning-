@@ -4,3 +4,8 @@ def even(n):
 nums = [1, 2, 3, 4, 5]
 f = filter(even, nums)
 print(list(f))
+
+# Using filter() with a Lambda Function
+
+l = filter(lambda x: x % 2 == 0, nums)
+print(list(l)) 
